@@ -5,11 +5,11 @@
 
 class Person:
     def __init__(self, name, age):
-        self._name = name
-        self._age = age
+        self.__name = name
+        self.__age = age
 
-    def _get_name(self):
-        return self._name
+    def __get_name(self):
+        return self.__name
 
-    def _get_age(self):
-        return self._age
+    def __get_age(self):
+        return self.__age
