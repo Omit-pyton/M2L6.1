@@ -8,10 +8,10 @@ class Person:
         self.__name = name
         self.__age = age
 
-    def __get_name(self):
+    def get_name(self):
         return self.__name
 
-    def __get_age(self):
+    def get_age(self):
         return self.__age
 
     def set_name(self, name): 
