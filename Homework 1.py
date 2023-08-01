@@ -13,3 +13,9 @@ class Person:
 
     def __get_age(self):
         return self.__age
+
+    def set_name(self, name): 
+        return name
+    
+    def set_age(self, age): 
+        return age
