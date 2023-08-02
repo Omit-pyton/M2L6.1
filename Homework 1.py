@@ -22,6 +22,10 @@ class Person:
 
 person = Person("Mike", 34)
 
+person = Person("Mike", 34)
+
+print(person.get_name())
 print(person.set_name("John"))
 
+print(person.get_age())
 print(person.set_age(27))
