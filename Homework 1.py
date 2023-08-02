@@ -20,7 +20,7 @@ class Person:
     def set_age(self, age): 
         return age
 
-person = Person()
+person = Person("Mike", 34)
 
 print(person.set_name("John"))
 
