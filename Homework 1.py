@@ -19,3 +19,11 @@ class Person:
     
     def set_age(self, age): 
         return age
+
+person = Person('Mike", 34)
+
+print(person.set_name())
+print(person.set_name("John"))
+
+print(person.set_age())
+print(person.set_age(27))
