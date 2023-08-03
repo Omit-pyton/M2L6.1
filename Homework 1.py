@@ -15,10 +15,12 @@ class Person:
         return self.__age
 
     def set_name(self, name): 
-        return name
+        self.__name = name
+        return self.__name
     
     def set_age(self, age): 
-        return age
+        self.__age = age
+        return self.__age
 
 person = Person("Mike", 34)
 
